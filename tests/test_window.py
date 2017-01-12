@@ -6,11 +6,11 @@ from src.window import Window
 
 class TestWindow(unittest.TestCase):
     def test_should_raise_error_for_empty_list(self):
-        with self.assertRaisesRegexp(ValueError, 'Collection cannot be empty'):
+        with self.assertRaisesRegexp(ValueError, 'List cannot be empty'):
             Window([], 3, 1)
 
     def test_should_raise_error_for_invalid_bucket_size(self):
-        with self.assertRaisesRegexp(ValueError, 'Bucket size should be smaller than collection size'):
+        with self.assertRaisesRegexp(ValueError, 'Bucket size should be smaller than list size'):
             Window([1], 3, 1)
 
     def test_should_raise_error_when_overlap_count_is_greater_than_bucket_size(self):
@@ -85,3 +85,14 @@ class TestWindow(unittest.TestCase):
         window_data = window.slide()
         self.assertEqual(window_data, [3])
         self.assertEqual(window.current_position(), (2, 2))
+
+    def test_should_return_true_when_reached_to_end_of_list(self):
+        window = Window([1, 2], 2, 1)
+        window.slide()
+        window.slide()
+        self.assertTrue(window.reached_end_of_list())
+
+    def test_should_return_false_when_end_of_list_is_not_reached(self):
+        window = Window([1, 2], 2, 1)
+        window.slide()
+        self.assertFalse(window.reached_end_of_list())
