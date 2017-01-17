@@ -1,8 +1,8 @@
 from distutils.core import setup
 
 setup(
-    name='sliding_window',
-    packages=['sliding_window'],
+    name='src',
+    packages=['src'],
     version='0.1',
     description='A lib to implement sliding window with overlapping',
     author='Ravi Sharma',
@@ -12,12 +12,10 @@ setup(
     keywords=['window', 'sliding', 'overlap'],
     classifiers=[
         'Environment :: Console',
-        'Intended Audience :: Science/Research/Developers',
         'License :: OSI Approved :: GNU General Public License (GPL)',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 3',
-        'Topic :: Scientific/Engineering :: Software Development :: Libraries :: Python Modules'
     ]
 )
