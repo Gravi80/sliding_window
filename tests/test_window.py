@@ -1,7 +1,7 @@
 from __future__ import absolute_import
 import unittest
 
-from src.window import Window
+from sliding_vindow.src.window import Window
 
 
 class TestWindow(unittest.TestCase):

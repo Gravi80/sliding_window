@@ -1,14 +1,13 @@
 from distutils.core import setup
 
 setup(
-    name='src',
-    packages=['src'],
+    name='sliding_vindow',
+    packages=['sliding_vindow'],
     version='0.1',
     description='A lib to implement sliding window with overlapping',
     author='Ravi Sharma',
     author_email='ravi.sharma.cs11@gmail.com',
     url='https://github.com/ravi2020/sliding_window',
-    download_url='https://github.com/ravi2020/sliding_window/tarball/0.1',
     keywords=['window', 'sliding', 'overlap'],
     classifiers=[
         'Environment :: Console',
