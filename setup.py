@@ -1,8 +1,8 @@
 from distutils.core import setup
 
 setup(
-    name='sliding-window',
-    packages=['sliding_window'],
+    name='window_slider',
+    packages=['window_slider'],
     version='0.1',
     description='A lib to implement sliding window with overlapping',
     author='Ravi Sharma',
