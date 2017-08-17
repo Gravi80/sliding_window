@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='window_slider',
     packages=['window_slider'],
-    version='0.1',
+    version='0.2',
     description='A lib to implement sliding window with overlapping',
     author='Ravi Sharma',
     author_email='ravi.sharma.cs11@gmail.com',
