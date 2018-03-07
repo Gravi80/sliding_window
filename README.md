@@ -1,5 +1,5 @@
 ### Status
-[![Build Status](https://travis-ci.org/codewithravi/sliding_window.svg?branch=master)](https://travis-ci.org/codewithravi/sliding_window)
+[![Build Status](https://travis-ci.org/imravishar/sliding_window.svg?branch=master)](https://travis-ci.org/imravishar/sliding_window)
 [![PyPI](https://img.shields.io/pypi/v/window-slider.svg)](https://pypi.python.org/pypi/window-slider)
 [![last commit](https://img.shields.io/github/last-commit/codewithravi/sliding_window.svg?label=last%20commit)](https://github.com/codewithravi/sliding_window/commits/master)
 [![License](https://img.shields.io/hexpm/l/plug.svg)](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0))
