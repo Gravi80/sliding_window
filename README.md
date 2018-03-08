@@ -40,7 +40,7 @@ numpy 2D array
 
 wrap window data to custom class
 -
-    class WindiwData(object):
+    class WindowData(object):
         def __init__(self, data):
             self._data = data
         
@@ -53,7 +53,7 @@ wrap window data to custom class
     list = numpy.array([0, 1, 2, 3, 4, 5, 6, 7])
     bucket_size = 3
     overlap_count = 1
-    slider = Slider(bucket_size,overlap_count,WindiwData)
+    slider = Slider(bucket_size,overlap_count,WindowData)
     slider.fit(list)       
     while True:
         window_data = slider.slide()
