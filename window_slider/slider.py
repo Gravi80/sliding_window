@@ -58,7 +58,7 @@ class Slider:
 
     def reached_end_of_list(self):
         data = self._window_data if self._1d_array(self._window_data) else self._window_data[0]
-        return len(data) < self._window_size
+        return (len(data) < self._window_size) or (self._window_start_index == self._list_length())
 
     def _list_length(self):
         return len(self._data) if self._1d_array(self._window_data) else len(self._data[0])
@@ -70,7 +70,6 @@ class Slider:
         self._window_data = self._data[self._window_start_index:self._window_start_index + self._window_size]
         if len(self._window_data) == self._window_size:
             self._window_start_index = self._next_window_start_index()
-        return self._window_data
 
     def _2d_array_window(self):
         self._window_data = self._data[:, self._window_start_index:self._window_start_index + self._window_size]

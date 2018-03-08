@@ -103,6 +103,12 @@ class TestSlider2dList(unittest.TestCase):
         self.assertTrue(array_equal(window_data, [[3], [3]]))
         self.assertEqual(slider.current_position(), (2, 2))
 
+    def test_should_return_true_for_end_of_list_when_overlap_is_zero(self):
+        slider = Slider(1, 0).fit(array([[1, 2], [1, 2]]))
+        slider.slide()
+        slider.slide()
+        self.assertTrue(slider.reached_end_of_list())
+
     def test_should_return_true_when_reached_to_end_of_list(self):
         slider = Slider(2, 1).fit(array([[1, 2], [1, 2]]))
         slider.slide()
