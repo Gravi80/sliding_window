@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='window_slider',
     packages=find_packages(exclude=['tests']),
-    version='0.3',
+    version='0.4',
     description='A lib to implement sliding window with overlapping on numpy array',
     author='Ravi Sharma',
     author_email='ravi.sharma.cs11@gmail.com',
