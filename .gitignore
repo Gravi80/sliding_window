@@ -4,3 +4,4 @@ __pycache__
 *.pyc
 dist
 window_slider.egg-info/
+build
