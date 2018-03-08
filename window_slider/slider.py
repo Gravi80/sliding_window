@@ -1,10 +1,11 @@
 class Slider:
-    def __init__(self, window_size, overlap_count):
+    def __init__(self, window_size, overlap_count, window_data_wrapper_class=None):
         self._window_size = window_size
         self._overlap_count = overlap_count
         self._window_start_index = 0
         self._window_data = None
         self._data = None
+        self._window_data_wrapper_class = window_data_wrapper_class
 
     def fit(self, data):
         self._data = self._validate(data)
@@ -15,6 +16,8 @@ class Slider:
             self._1d_array_window()
         else:
             self._2d_array_window()
+        if self._window_data_wrapper_class:
+            return self._window_data_wrapper_class(self._window_data)
         return self._window_data
 
     def _validate(self, data):

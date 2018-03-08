@@ -3,6 +3,7 @@ import unittest
 from numpy import array, array_equal
 
 from window_slider.slider import Slider
+from window_data import WindowData
 
 
 class TestSlider1dList(unittest.TestCase):
@@ -46,6 +47,11 @@ class TestSlider1dList(unittest.TestCase):
         self.assertTrue(array_equal(window_data, [6, 7]))
         self.assertEqual(slider.current_position(), (6, 7))
         self.assertTrue(slider.reached_end_of_list())
+
+    def test_should_return_window_data_object(self):
+        slider = Slider(3, 1, WindowData).fit(array([1, 2, 3, 4, 5, 6, 7]))
+        window_data = slider.slide()
+        self.assertIsInstance(window_data, WindowData)
 
     # When last window contains one element
     def test_should_return_window_position(self):
