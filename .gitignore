@@ -2,3 +2,5 @@
 .DS_Store
 __pycache__
 *.pyc
+dist
+window_slider.egg-info/
