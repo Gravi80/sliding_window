@@ -60,3 +60,6 @@ wrap window data to custom class
         # do your stuff
         print(window_data.sum())
         if slider.reached_end_of_list(): break
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fimravishar%2Fsliding_window.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fimravishar%2Fsliding_window?ref=badge_large)
