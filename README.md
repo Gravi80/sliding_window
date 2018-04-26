@@ -2,8 +2,8 @@
 [![Build Status](https://travis-ci.org/imravishar/sliding_window.svg?branch=master)](https://travis-ci.org/imravishar/sliding_window)
 [![PyPI](https://img.shields.io/pypi/v/window-slider.svg)](https://pypi.python.org/pypi/window-slider)
 [![last commit](https://img.shields.io/github/last-commit/imravishar/sliding_window.svg?label=last%20commit)](https://github.com/imravishar/sliding_window/commits/master)
-[![License](https://img.shields.io/hexpm/l/plug.svg)](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fimravishar%2Fsliding_window.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fimravishar%2Fsliding_window?ref=badge_shield)
-)
+[![License](https://img.shields.io/hexpm/l/plug.svg)](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0))
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fimravishar%2Fsliding_window.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fimravishar%2Fsliding_window?ref=badge_shield)
 
 **Usage**
 =========
