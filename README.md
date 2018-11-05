@@ -4,7 +4,7 @@
 [![last commit](https://img.shields.io/github/last-commit/imravishar/sliding_window.svg?label=last%20commit)](https://github.com/imravishar/sliding_window/commits/master)
 [![License](https://img.shields.io/hexpm/l/plug.svg)](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0))
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fimravishar%2Fsliding_window.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fimravishar%2Fsliding_window?ref=badge_shield)
-
+[![PyPI Package monthly downloads](https://img.shields.io/pypi/dm/window-slider.svg?style=flat)](https://pypi.python.org/pypi/window-slider)
 **Usage**
 =========
     $ pip install window-slider
