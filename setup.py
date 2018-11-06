@@ -10,7 +10,7 @@ def read_file(filename):
 setup(
     name='window_slider',
     packages=find_packages(exclude=['tests']),
-    version='0.5',
+    version='0.6',
     description='A lib to implement sliding window with overlapping on numpy array',
     long_description="""{0}""".format(read_file('README.md')),
     long_description_content_type="text/markdown",
