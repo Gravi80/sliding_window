@@ -1,8 +1,11 @@
+from os import path
 from setuptools import setup, find_packages
+
 
 def read_file(filename):
     with open(path.join(path.dirname(__file__), filename)) as file:
         return file.read()
+
 
 setup(
     name='window_slider',
