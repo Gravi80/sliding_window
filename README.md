@@ -1,3 +1,5 @@
+A python package to run sliding window with overlapping on numpy array
+
 ### Status
 [![Build Status](https://travis-ci.org/imravishar/sliding_window.svg?branch=master)](https://travis-ci.org/imravishar/sliding_window)
 [![PyPI](https://img.shields.io/pypi/v/window-slider.svg)](https://pypi.python.org/pypi/window-slider)
